@@ -9,3 +9,12 @@ function isPalindromeString(str){
 } 
 console.log(isPalindromeString("nitin"));
 console.log(isPalindromeString("Sagar"));
+
+//check string is palindrome using split,reverse,join 
+function isPalindromeString(str){
+    const rev = str.split('').reverse().join('');
+    return str === rev;
+} 
+
+console.log(isPalindromeString("nitin"));
+console.log(isPalindromeString("Sagar"));
